@@ -1,0 +1,113 @@
+# Logging session transcript to file "C:/DOCUME~1/de9da00/LOCALS~1/Temp/log10b2cac.0"
+//  Precision Synthesis 2004c.45 (Production Release) Mon Feb  7 00:51:07 PST 2005
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2005, All Rights Reserved.
+//             Portions copyright 1991-2004 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Windows XP de9da00@DRAG Service Pack 2 5.01.2600 i1586
+//  
+//  Start time Tue Feb 07 10:53:27 2006
+# -------------------------------------------------
+
+# Logging session transcript to file "C:/DOCUME~1/de9da00/LOCALS~1/Temp/log10b2cac.0"
+# 
+# COMMAND: dofile C:/FPGAdv70PP/Hds/resources/misc/RunPrecision.tcl
+# sock1644
+# ModelSim 5.1
+# DRAG:3324
+dofile C:/FPGAdv70PP/Hds/resources/misc/RunPrecision.tcl
+# source "C:/hds_projects/processorV3-stu/processor_lib/ps//processor/hds/precision.tcl"
+# Info: HDL Designer Synthesis run started
+# Info: Saved project file 'C:/hds_projects/processorV3-stu/processor_lib/ps/processor/processor.psp'.
+# Info: Input directory is C:/hds_projects/processorV3-stu/processor_lib/ps/processor/
+# Info: Changed current working directory to 'C:/hds_projects/processorV3-stu/processor_lib/ps/processor/'.
+# Moving session transcript to file "C:/hds_projects/processorV3-stu/processor_lib/ps/processor/precision.log"
+# Info: Created project processor in folder 'C:/hds_projects/processorV3-stu/processor_lib/ps/processor/'.
+# Warning: There is no active implementation.
+# 
+# COMMAND: new_impl -name "processor_impl_2"
+# 
+# Info: Created directory 'C:/hds_projects/processorV3-stu/processor_lib/ps/processor/processor_impl_2/'.
+# Info: Saved project file 'C:/hds_projects/processorV3-stu/processor_lib/ps/processor/processor.psp'.
+# Info: Saved impl file 'C:/hds_projects/processorV3-stu/processor_lib/ps/processor/processor_impl_2/processor_impl_2.psi'.
+# Info: Created implementation processor_impl_2 in project processor.
+# Info: Created directory 'C:/hds_projects/processorV3-stu/processor_lib/ps/processor/processor_temp_1/'.
+# Info: Copied files from 'C:/hds_projects/processorV3-stu/processor_lib/ps/processor/processor_impl_2/' to 'C:/hds_projects/processorV3-stu/processor_lib/ps/processor/processor_temp_1/'.
+# Info: Read impl file 'C:/hds_projects/processorV3-stu/processor_lib/ps/processor/processor_temp_1/processor_impl_2.psi'.
+# Info: Results directory is C:/hds_projects/processorV3-stu/processor_lib/ps/processor/processor_temp_1/
+# Appending project transcript to file "C:/hds_projects/processorV3-stu/processor_lib/ps/processor/processor_temp_1/precision.log"
+# Info: Design loaded for impl processor_impl_2.
+# Info: Activated implementation processor_impl_2 in project processor.
+new_impl -name "processor_impl_2"
+
+# Info: Setting up the design to use synthesis library "flex10.syn"
+# Info: Setting Part to: "EPF10K10LC84"
+# Info: Info: Setting Process to: "3"
+# Info: Reading library file `C:/FPGAdv70PP/Precision/Mgc_home/pkgs/psr/techlibs\flex10.syn`...
+# Info: Reading format 2004.1 of library 
+# Info: Library version = 3.9
+# Info: Delays assume: Process=3 
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/regfile_struct.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/instructionrom_struct.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/datapath_struct.v'...
+# Warning: "C:/hds_projects/processorV3-stu/processor_lib/hdl/datapath_struct.v", line 100: Warning: initial statement not supported. Ignored
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/control_fsm.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/processor_struct.v'...
+# Error: "C:/hds_projects/processorV3-stu/processor_lib/hdl/regfile_struct.v", line 58: Error: Illegal mixing of level and edge triggers
+# Error(s) found in Verilog source.
+# Info: HDL Designer Synthesis run finished
+# 
+# COMMAND: compile
+# Info: Reading library file `C:/FPGAdv70PP/Precision/Mgc_home/pkgs/psr/techlibs\flex10.syn`...
+# Info: Reading format 2004.1 of library 
+# Info: Library version = 3.9
+# Info: Delays assume: Process=3 
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/regfile_struct.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/instructionrom_struct.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/datapath_struct.v'...
+# Warning: "C:/hds_projects/processorV3-stu/processor_lib/hdl/datapath_struct.v", line 100: Warning: initial statement not supported. Ignored
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/control_fsm.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/processor_struct.v'...
+# Error: "C:/hds_projects/processorV3-stu/processor_lib/hdl/regfile_struct.v", line 58: Error: Illegal mixing of level and edge triggers
+# Error(s) found in Verilog source.
+# 
+# COMMAND: compile
+# Info: Reading library file `C:/FPGAdv70PP/Precision/Mgc_home/pkgs/psr/techlibs\flex10.syn`...
+# Info: Reading format 2004.1 of library 
+# Info: Library version = 3.9
+# Info: Delays assume: Process=3 
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/regfile_struct.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/instructionrom_struct.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/datapath_struct.v'...
+# Warning: "C:/hds_projects/processorV3-stu/processor_lib/hdl/datapath_struct.v", line 100: Warning: initial statement not supported. Ignored
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/control_fsm.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/processor_struct.v'...
+# Error: "C:/hds_projects/processorV3-stu/processor_lib/hdl/regfile_struct.v", line 58: Error: Illegal mixing of level and edge triggers
+# Error(s) found in Verilog source.
+# 
+# COMMAND: compile
+# Info: Reading library file `C:/FPGAdv70PP/Precision/Mgc_home/pkgs/psr/techlibs\flex10.syn`...
+# Info: Reading format 2004.1 of library 
+# Info: Library version = 3.9
+# Info: Delays assume: Process=3 
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/regfile_struct.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/instructionrom_struct.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/datapath_struct.v'...
+# Warning: "C:/hds_projects/processorV3-stu/processor_lib/hdl/datapath_struct.v", line 100: Warning: initial statement not supported. Ignored
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/control_fsm.v'...
+# -- Reading file 'C:/hds_projects/processorV3-stu/processor_lib/hdl/processor_struct.v'...
+# Error: "C:/hds_projects/processorV3-stu/processor_lib/hdl/regfile_struct.v", line 58: Error: Illegal mixing of level and edge triggers
+# Error(s) found in Verilog source.
+# 
+# COMMAND: exit
+# 
+# COMMAND: close_project -discard
+# 
+# Warning: Discarded unsaved work in implementation processor_impl_2.
+# Info: Saved project file 'C:/hds_projects/processorV3-stu/processor_lib/ps/processor/processor.psp'.
+# Info: Closed project processor.
+close_project -discard
+

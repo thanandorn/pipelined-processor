@@ -1,0 +1,16 @@
+[ModelSim]
+Processor = $HDS_PROJECT_DIR/Processor/work/
+[Precision]
+Processor = $HDS_PROJECT_DIR/Processor/ps/
+[hdl]
+Processor = $HDS_PROJECT_DIR/Processor/hdl
+[hds]
+Processor = $HDS_PROJECT_DIR/Processor/hds
+[hds_settings]
+default_library = Processor
+design_root = Processor.processor(processor)processor/struct.bd
+version = 1
+[library_type]
+ProcessorAss2 = regular
+[shared]
+others = $HDS_TEAM_HOME/shared.hdp

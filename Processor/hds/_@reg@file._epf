@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom RegFile
+DEFAULT_FILE atom regfile.v

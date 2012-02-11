@@ -1,0 +1,2 @@
+DEFAULT_ARCHITECTURE atom InstructionROM
+DEFAULT_FILE atom instRom.v

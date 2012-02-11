@@ -1,0 +1,145 @@
+# //  ModelSim SE 6.1c Nov 17 2005 
+# //
+# //  Copyright Mentor Graphics Corporation 2005
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# vsim -L Processor -l transcript.txt -i -multisource_delay latest -t ns +typdelays -foreign {hdsInit C:/FPGAdv72PS/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll} -pli C:/FPGAdv72PS/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll Processor.processor 
+# Loading C:/FPGAdv72PS/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll
+# Loading D:\MMU - Coursework\Computer Systems\Assignment #1 - Pipelined Processor Design\fpga\processor_MSc_pipelined.1.before/Processor/work/.processor
+# Loading D:\MMU - Coursework\Computer Systems\Assignment #1 - Pipelined Processor Design\fpga\processor_MSc_pipelined.1.before/Processor/work/.InstructionROM
+# ** Warning: (vsim-3009) [TSCALE] - Module 'InstructionROM' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /processor/I0
+# Loading D:\MMU - Coursework\Computer Systems\Assignment #1 - Pipelined Processor Design\fpga\processor_MSc_pipelined.1.before/Processor/work/.control_pipelined
+# Loading D:\MMU - Coursework\Computer Systems\Assignment #1 - Pipelined Processor Design\fpga\processor_MSc_pipelined.1.before/Processor/work/.datapath
+# Loading D:\MMU - Coursework\Computer Systems\Assignment #1 - Pipelined Processor Design\fpga\processor_MSc_pipelined.1.before/Processor/work/.BigALU
+# Loading D:\MMU - Coursework\Computer Systems\Assignment #1 - Pipelined Processor Design\fpga\processor_MSc_pipelined.1.before/Processor/work/.RegFile
+# ** Warning: (vsim-3009) [TSCALE] - Module 'RegFile' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /processor/I1/I10
+do {D:/MMU - Coursework/Computer Systems/Assignment #1 - Pipelined Processor Design/fpga/processor_MSc_pipelined.1.before/Processor/work/wave.do}
+do {D:/MMU - Coursework/Computer Systems/Assignment #1 - Pipelined Processor Design/fpga/processor_MSc_pipelined.1.before/Processor/work/processor.do}
+run
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+run
+# 0
+# 
+add wave sim:/processor/I1/q1
+restart
+# Loading C:/FPGAdv72PS/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll
+# ** Warning: (vsim-3009) [TSCALE] - Module 'InstructionROM' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /processor/I0
+# ** Warning: (vsim-3009) [TSCALE] - Module 'RegFile' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /processor/I1/I10
+do {D:/MMU - Coursework/Computer Systems/Assignment #1 - Pipelined Processor Design/fpga/processor_MSc_pipelined.1.before/Processor/work/processor.do}
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# hds_restart 
+restart -force
+# Loading C:/FPGAdv72PS/Hds/resources/downstream/modelsim/ModelSim_32Bit.dll
+# ** Warning: (vsim-3009) [TSCALE] - Module 'InstructionROM' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /processor/I0
+# ** Warning: (vsim-3009) [TSCALE] - Module 'RegFile' does not have a `timescale directive in effect, but previous modules do.
+#         Region: /processor/I1/I10
+do {D:/MMU - Coursework/Computer Systems/Assignment #1 - Pipelined Processor Design/fpga/processor_MSc_pipelined.1.before/Processor/work/processor.do}
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run

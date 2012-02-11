@@ -1,0 +1,16 @@
+force -freeze sim:/InstructionROM/ADDR 10#0 0
+force -freeze sim:/InstructionROM/ADDR 10#1 550
+force -freeze sim:/InstructionROM/ADDR 10#1 1050
+force -freeze sim:/InstructionROM/ADDR 10#2 1550
+force -freeze sim:/InstructionROM/ADDR 10#3 2050
+force -freeze sim:/InstructionROM/ADDR 10#4 2550
+force -freeze sim:/InstructionROM/ADDR 10#5 3050
+force -freeze sim:/InstructionROM/ADDR 10#6 3550
+force -freeze sim:/InstructionROM/ADDR 10#7 4050
+force -freeze sim:/InstructionROM/ADDR 10#8 4550
+force -freeze sim:/InstructionROM/ADDR 10#10 5050
+force -freeze sim:/InstructionROM/ADDR 10#11 5550
+force -freeze sim:/InstructionROM/ADDR 10#12 6050
+force -freeze sim:/InstructionROM/ADDR 10#13 6550
+force -freeze sim:/InstructionROM/ADDR 10#14 7050
+force -freeze sim:/InstructionROM/ADDR 10#15 7550
